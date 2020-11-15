@@ -1,0 +1,7 @@
+CREATE TABLE post (
+  id INT AUTO_INCREMENT NOT NULL,
+  title VARCHAR(200) NOT NUll,
+  content VARCHAR(2000) NOT NULL,
+  published_date DATE NOT NULL,
+  PRIMARY KEY (id)
+);
